@@ -3,6 +3,8 @@
   'nonprod'
   'prod'
 ])
+//all these values will be used to create the resources
+// the values are the default values
 param environmentType string = 'nonprod'
 @sys.description('The PostgreSQL Server name')
 @minLength(3)
@@ -84,6 +86,7 @@ resource postgresSQLDatabase 'Microsoft.DBforPostgreSQL/flexibleServers/database
     collation: 'en_US.UTF8'
   }
 }
+// python code needs the name of the database to know where to connect to
 
 module appService 'modules/app-service.bicep' = {
   name: 'appService'

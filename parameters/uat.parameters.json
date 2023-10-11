@@ -1,0 +1,27 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "environmentType": {
+            "value": "nonprod"
+        },
+        "postgreSQLServerName": {
+            "value": "maudhelen-dbsrv-uat"
+        },
+        "postgreSQLDatabaseName": {
+            "value": "maudhelen-db-uat"
+        },
+        "appServicePlanName": {
+            "value": "maudhelen-asp-uat"
+        },
+        "appServiceAPIAppName": {
+            "value": "maudhelen-be-uat"
+        },
+        "appServiceAppName": {
+            "value": "maudhelen-fe-uat"
+        },
+        "location": {
+            "value": "Norway East"
+        }
+    }
+}

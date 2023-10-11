@@ -15,7 +15,8 @@ param appServiceAPIDBHostFLASK_DEBUG string
   'prod'
 ])
 param environmentType string
-
+//if the env is prod we will configure the basic
+// else we will configure the free
 var appServicePlanSkuName = (environmentType == 'prod') ? 'B1' : 'F1'
 
 resource appServicePlan 'Microsoft.Web/serverFarms@2022-03-01' = {
@@ -30,6 +31,7 @@ resource appServicePlan 'Microsoft.Web/serverFarms@2022-03-01' = {
   }
 }
 
+//this is going to containp
 resource appServiceAPIApp 'Microsoft.Web/sites@2022-03-01' = {
   name: appServiceAPIAppName
   location: location
@@ -40,6 +42,7 @@ resource appServiceAPIApp 'Microsoft.Web/sites@2022-03-01' = {
       linuxFxVersion: 'PYTHON|3.11'
       alwaysOn: false
       ftpsState: 'FtpsOnly'
+      //these variables are in the azure webapp
       appSettings: [
         {
           name: 'ENV'
