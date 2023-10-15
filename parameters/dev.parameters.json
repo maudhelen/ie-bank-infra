@@ -6,19 +6,19 @@
             "value": "nonprod"
         },
         "postgreSQLServerName": {
-            "value": "maudhelen-dbsrv-dev"
+            "value": "maudhelen2-dbsrv-dev"
         },
         "postgreSQLDatabaseName": {
-            "value": "maudhelen-db-dev"
+            "value": "maudhelen2-db-dev"
         },
         "appServicePlanName": {
-            "value": "maudhelen-asp-dev"
+            "value": "maudhelen2-asp-dev"
         },
         "appServiceAPIAppName": {
-            "value": "maudhelen-be-dev"
+            "value": "maudhelen2-be-dev"
         },
         "appServiceAppName": {
-            "value": "maudhelen-fe-dev"
+            "value": "maudhelen2-fe-dev"
         },
         "location": {
             "value": "Norway East"
