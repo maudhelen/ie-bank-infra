@@ -3,7 +3,6 @@
   'nonprod'
   'prod'
 ])
-
 param environmentType string = 'nonprod'
 @sys.description('The PostgreSQL Server name')
 @minLength(3)
@@ -126,5 +125,4 @@ resource appInsights 'Microsoft.Insights/components@2020-02-02' = {
     Application_Type: 'web'
     WorkspaceResourceId: resourceId('Microsoft.OperationalInsights/workspaces', azureMonitorName)
   }
-
-}
+} 
