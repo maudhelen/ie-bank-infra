@@ -5,7 +5,6 @@ param appServiceAPIAppName string
 param appServiceAPIEnvVarENV string
 param appServiceAPIEnvVarDBHOST string
 param appServiceAPIEnvVarDBNAME string
-
 @secure()
 param appServiceAPIEnvVarDBPASS string
 param appServiceAPIDBHostDBUSER string
@@ -14,7 +13,6 @@ param appServiceAPIDBHostFLASK_DEBUG string
 @allowed([
   'nonprod'
   'prod'
-  'uat'
 ])
 param environmentType string
 
@@ -22,7 +20,7 @@ var appServicePlanSkuName = (environmentType == 'prod') ? 'B1' : 'F1'
 
 resource appServicePlan 'Microsoft.Web/serverFarms@2022-03-01' = {
   name: appServicePlanName
-  location: location // Change the location (A UNIQUE ONE) -> Somewhere in Canada now
+  location: location
   sku: {
     name: appServicePlanSkuName
   }
