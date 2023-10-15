@@ -5,7 +5,7 @@ on: [push, workflow_dispatch]
 env:
   RESOURCE_GROUP_DEV: aguadamillas_students_1
   SUBSCRIPTION_ID_DEV: e0b9cada-61bc-4b5a-bd7a-52c606726b3b
-  USER_ALIAS: maudhelen2
+  USER_ALIAS: maudhelen22
 
 jobs:
   build:
@@ -54,8 +54,8 @@ jobs:
       name: 'User Acceptance Testing'
     env:
       ENV: uat
-      DBHOST: maudhelen-dbsrv-uat.postgres.database.azure.com/
-      DBNAME: maudhelen-db-uat
+      DBHOST: maudhelen2-dbsrv-uat.postgres.database.azure.com/
+      DBNAME: maudhelen2-db-uat
       FLASK_APP: app.py
       FLASK_DEBUG: 1
 

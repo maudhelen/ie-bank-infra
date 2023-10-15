@@ -6,19 +6,19 @@
             "value": "prod"
         },
         "postgreSQLServerName": {
-            "value": "maudhelen2-dbsrv-uat"
+            "value": "maudhelen22-dbsrv-uat"
         },
         "postgreSQLDatabaseName": {
-            "value": "maudhelen2-db-uat"
+            "value": "maudhelen22-db-uat"
         },
         "appServicePlanName": {
-            "value": "maudhelen2-asp-uat"
+            "value": "maudhelen22-asp-uat"
         },
         "appServiceAPIAppName": {
-            "value": "maudhelen2-be-uat"
+            "value": "maudhelen22-be-uat"
         },
         "appServiceAppName": {
-            "value": "maudhelen2-fe-uat"
+            "value": "maudhelen22-fe-uat"
         },
         "location": {
             "value": "Norway East"
