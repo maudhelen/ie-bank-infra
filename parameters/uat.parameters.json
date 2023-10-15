@@ -20,6 +20,12 @@
         "appServiceAppName": {
             "value": "maudhelen-fe-uat"
         },
+        "azureMonitorName": {
+            "value": "maudhelen-am-uat"
+          },
+        "appInsightsName": {
+            "value": "maudhelen-ai-uat"
+          },
         "location": {
             "value": "Poland Central"
         }
