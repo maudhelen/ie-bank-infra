@@ -3,7 +3,7 @@
   'nonprod'
   'prod'
 ])
-param environmentType string = 'nonprod'
+param environmentType string = 'prod'
 @sys.description('The PostgreSQL Server name')
 @minLength(3)
 @maxLength(24)
