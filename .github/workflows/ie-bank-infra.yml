@@ -59,8 +59,8 @@ jobs:
         name: 'User Acceptance Testing'
       env:
         ENV: uat
-        DBHOST: maudhelen-dbsrv-uat.postgres.database.azure.com
-        DBNAME: maudhelen-db-uat
+        DBHOST: maudhelen2-dbsrv-uat.postgres.database.azure.com
+        DBNAME: maudhelen2-db-uat
         FLASK_APP: app.py
         FLASK_DEBUG: 1
           
