@@ -6,25 +6,25 @@
             "value": "prod"
         },
         "postgreSQLServerName": {
-            "value": "maudhelen-dbsrv-uat"
+            "value": "maudhelen2-dbsrv-uat"
         },
         "postgreSQLDatabaseName": {
-            "value": "maudhelen-db-uat"
+            "value": "maudhelen2-db-uat"
         },
         "appServicePlanName": {
-            "value": "maudhelen-asp-uat"
+            "value": "maudhelen2-asp-uat"
         },
         "appServiceAPIAppName": {
-            "value": "maudhelen-be-uat"
+            "value": "maudhelen2-be-uat"
         },
         "appServiceAppName": {
-            "value": "maudhelen-fe-uat"
+            "value": "maudhelen2-fe-uat"
         },
         "azureMonitorName": {
-            "value": "maudhelen-am-uat"
+            "value": "maudhelen2-am-uat"
         },
         "appInsightsName": {
-            "value": "maudhelen-ai-uat"
+            "value": "maudhelen2-ai-uat"
         },
         "location": {
             "value": "Poland Central"
